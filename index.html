@@ -1,0 +1,16 @@
+<html>
+<head>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+
+    <script src="js/firebase-sync.component.js"></script>
+    <script src="configuration/firebase-conf.js"></script>
+
+</head>
+<body>
+    <a-scene>
+        <a-entity look-controls camera position="0 0 0"></a-entity>
+        <a-entity firebase-sync></a-entity>
+    </a-scene>
+</body>
+</html>
