@@ -1,6 +1,10 @@
 var editorConfiguration = {
     templates: [
         {
+            title: 'CLEAR',
+            content: ' '
+        },
+        {
             title: 'Hello world!',
             content: '<a-box position="-1 -1.1 -3" rotation="0 45 0" color="#4CC3D9"></a-box>\n' +
             '<a-sphere position="0 -0.35 -5" radius="1.25" color="#EF2D5E"></a-sphere>\n' +
